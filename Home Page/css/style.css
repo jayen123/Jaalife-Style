@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header section start */
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -30px 1px 15px rgb(153, 148, 148);
+    padding: 10px;
+}
+.logo{
+    margin-left: 120px;
+}
+.menu{
+    margin-right: 0px;
+}
+.menu a{
+    color: #122852;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0px 70px;
+    font-weight: bold;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    top: 25px;
+    right: -30px;
+    display: none;
+    font-weight: 500;
+    color: #122852;
+    z-index: 1;
+    text-align: right;
+}
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    padding: 10px 70px 10px 10px;
+    background-color: white;
+}
+#home{
+    border-bottom: 3px solid black;
+}
+#home:hover{
+    border-bottom: 3px solid rgb(153, 148, 148);
+    color: #122852;
+}
+#life:hover{
+    border-bottom: 3px solid rgb(153, 148, 148);
+    color: #122852;
+}
+#login:hover{
+    border-bottom: 3px solid rgb(153, 148, 148);
+    color: #122852;
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color:  rgb(153, 148, 148);
+    color: white;
+}
+.btn-1{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #122852;
+    color: white;
+    font-weight: 500;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 55px;
+    font-weight: 700;
+}
+.paragraph{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.btn-2{
+    background: none;
+    margin-bottom: 225px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+}
+/* Header section end */
+
+/* start all about section */
+.about-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 3rem;
+}
+.all-about-secton{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.content-about{
+    width: 50%;
+}
+.content-heading{
+    font-size: 40px;
+    font-weight: 900;
+    color: #122852;;
+}
+.content-paragraph{
+    margin-top: 3rem;
+    font-size: 1.0rem;
+    opacity: 0.5;
+    line-height: 1.67;
+}
+.btn-3{
+    width: 200px;
+    height: 40px;
+    margin-top: 3rem;
+    background-color: #122852;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.btn-3:hover{
+    background-color: black;
+    color: white;
+}
+.world-maf{
+    margin-top: 3rem;
+    width: 50%;
+    height: auto;
+    background-image: url(../image/world.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+#world-logo{
+    width: 260px;
+    height: 150px;
+}
+/* end all about section */
+
